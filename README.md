@@ -49,9 +49,15 @@ The development team has already built the DOM manipulation logic. Your task is 
 
 ## Project Structure
 
-    ├── index.html        # Application UI
-    ├── index.js          # Pre-built DOM logic (DO NOT MODIFY)
-    └── index.test.js     # You will create this file
+    ├── index.html          # Application UI (DO NOT MODIFY)
+    ├── index.js            # Pre-built DOM logic (DO NOT MODIFY)
+    ├── styles.css          # Basic styles for the application
+    ├── package.json        # Project configuration and dependencies
+    ├── eslint.config.mjs   # ESLint configuration
+    ├── .gitignore          # Git ignore rules for Node projects
+    ├── README.md           # Lab instructions
+    └── test/
+        └── index.test.js   # You will create and edit this file
 
 ---
 
