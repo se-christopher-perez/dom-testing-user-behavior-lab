@@ -99,7 +99,7 @@ describe("handleSubmitForm", () => {
         const input = document.querySelector('input')
         const errorMessage = document.querySelector('#error-message')
 
-        input.value = ""
+        input.value = "  "
 
         handleFormSubmit("user-form", "dynamic-content")
 
